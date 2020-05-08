@@ -32,9 +32,9 @@ class Home extends React.Component{
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav style={{ width: "100%" }} className="mr-auto justify-content-center">
-      <Nav.Link className="item active"  href="http://localhost:3000/">Home</Nav.Link>
-      <Nav.Link className="item" href="http://localhost:3000/projects">Projects</Nav.Link>
-      <Nav.Link className="item" href="http://localhost:3000/contact">Contact</Nav.Link>
+      <Nav.Link className="item active"  href="https://giselesousar.github.io/">Home</Nav.Link>
+      <Nav.Link className="item" href="https://giselesousar.github.io/projects">Projects</Nav.Link>
+      <Nav.Link className="item" href="https://giselesousar.github.io/contact">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
