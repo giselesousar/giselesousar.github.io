@@ -10,7 +10,7 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Switch>
-                <Route path={process.env.PUBLIC_URL + '/'} exact component={Home}/>
+                <Route path="/" exact component={Home}/>
                 <Route path="/projects" component={Projects}/>
                 <Route path="/contact" component={Contact}/>
             </Switch>
