@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 import {FiInstagram, FiGithub, FiMail} from 'react-icons/fi'
-
+import {Link} from 'react-router-dom';
 import {Container, Navbar, Nav} from 'react-bootstrap';
 
 
@@ -20,6 +20,7 @@ class Home extends React.Component{
                         <p>Atualmente, estou desenvolvendo habilidades em HTML, CSS e JavaScript com o uso do framework React. Também faço parte de um programa de iniciação científica na área de Redes de sensores sem fio.</p>
                         <p>Linguagens: C, Java, Python, JavaScript, VHDL.</p>
                     </div>
+                    <Container style={{ width: "70%" }} >
                     <div className="icons-links">
                         <a href="https://www.gmail.com/"><FiMail size={16} color="#ffdd1f"/></a>
                         <a href="https://github.com/giselesousar"><FiGithub size={16} color="#ffdd1f"/></a>
@@ -31,13 +32,14 @@ class Home extends React.Component{
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav style={{ width: "100%" }} className="mr-auto justify-content-center">
-      <Nav.Link className="item active"  href="http://giselesousar.github.io/">Home</Nav.Link>
-      <Nav.Link className="item" href="http://giselesousar.github.io/projects">Projetos</Nav.Link>
-      <Nav.Link className="item" href="http://giselesousar.github.io/contact">Contatos</Nav.Link>
+      <Nav.Link className="item-nav active" ><Link className="item" to='/'>Home</Link></Nav.Link>
+      <Nav.Link className="item-nav" ><Link className="item" to='/projects'>Projetos</Link></Nav.Link>
+      <Nav.Link className="item-nav" ><Link className="item" to='/contact'>Contatos</Link></Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
 </div>
+</Container>
                 </section>
                 </Container>
             </Container>

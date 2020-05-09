@@ -10,7 +10,7 @@
 }
 body {
     font: 400 14px Quicksand, sans-serif;
-    background-color: #322c30;
+    background-color: #35383e;
     color: white;
     /*
     background: url(assets/background-photo.jpg) no-repeat center center fixed; 
@@ -31,22 +31,22 @@ body {
 }
 .item{
     color:white !important;
+    text-decoration: none !important;
 }
-.item:hover{
-    background-color:#558b2f !important;
+.item-nav:hover{
+    background-color:#7c9962 !important;
     border-radius: 5px;
 
 }
 .active{
-    background-color: #558b2f !important;
+    background-color: #7c9962 !important;
     border-radius: 5px;
 }
 
 
 hr{
-    width: 60%;
     background-color: white;
-    margin-left: 20%;
+    margin-left: 5px;
 }
 .paragrafo-container{
     padding-top: 30px;
