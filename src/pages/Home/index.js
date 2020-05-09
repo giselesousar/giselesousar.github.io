@@ -25,9 +25,9 @@ class Home extends React.Component{
                     </div>
                     <Container style={{ width: "70%" }} >
                     <div className="icons-links">
-                        <a href="https://www.gmail.com/"><FiMail size={16} color="#ffdd1f"/></a>
-                        <a href="https://github.com/giselesousar"><FiGithub size={16} color="#ffdd1f"/></a>
-                        <a href="https://www.instagram.com/giselesousa_r/"><FiInstagram size={16} color="#ffdd1f"/></a>
+                        <a href="/"><FiMail size={16} color="rgb(255, 221, 31)"/> Mail</a>
+                        <a href="https://github.com/giselesousar"><FiGithub size={16} color="rgb(255, 221, 31)"/> Github</a>
+                        <a href="https://www.instagram.com/giselesousa_r/"><FiInstagram size={16} color="rgb(255, 221, 31)"/> Instagram</a>
                     </div>
                     
 </Container>

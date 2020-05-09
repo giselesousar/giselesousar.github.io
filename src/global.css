@@ -26,9 +26,6 @@ body {
 .color-nav{
     background-color:#7c9962;
 }
-.icons-links a{
-    padding: 3px;
-}
 
 .active{
     background-color: #7c9962 !important;

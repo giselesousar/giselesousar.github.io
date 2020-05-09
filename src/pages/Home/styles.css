@@ -14,4 +14,9 @@ p{
     }
     
 }
-
+.icons-links a{
+    text-decoration: none;
+    padding: 5px;
+    color:rgb(255, 221, 31);
+    border-radius: 3px;
+}
