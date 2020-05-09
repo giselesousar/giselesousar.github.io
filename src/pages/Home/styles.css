@@ -1,44 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One:400&display=swap');
 
-.color-nav{
-    background-color:transparent;
-}
-.icons-links a{
-    padding: 3px;
-}
-.item{
-    color:white !important;
-}
-.item:hover{
-    background-color:#558b2f !important;
-    border-radius: 5px;
-
-}
-.active{
-    background-color: #558b2f !important;
-    border-radius: 5px;
-}
-
-
-hr{
-    width: 50%;
-    background-color: white;
-    margin-left: 25%;
-}
 p{
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px;
 }
-.paragrafo-container{
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
-h1{
-    padding-top: 80px;
-    font: 400 60px Poiret One, sans-serif;
-}
-
-
-  
-  

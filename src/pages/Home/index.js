@@ -7,13 +7,11 @@ import {FiInstagram, FiGithub, FiMail} from 'react-icons/fi'
 import {Container, Navbar, Nav} from 'react-bootstrap';
 
 
-
-
 class Home extends React.Component{
     render(){
         return(
             <Container fluid="true"className="justify-content-center">
-   <Container style={{ width: "45%" }} className="justify-content-center">
+   <Container style={{ width: "80%" }} className="justify-content-center">
        
                 <section className="center-block text-center center">
                     <h1>GISELE RIBEIRO</h1>
@@ -28,16 +26,18 @@ class Home extends React.Component{
                         <a href="https://www.instagram.com/giselesousa_r/"><FiInstagram size={16} color="#ffdd1f"/></a>
                     </div>
                     <hr/>
+                    <div className="links-navbar">
                     <Navbar className="custom-nav justify-content-center" >
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav style={{ width: "100%" }} className="mr-auto justify-content-center">
-      <Nav.Link className="item active"  href="https://giselesousar.github.io/">Home</Nav.Link>
-      <Nav.Link className="item" href="https://giselesousar.github.io/projects">Projects</Nav.Link>
-      <Nav.Link className="item" href="https://giselesousar.github.io/contact">Contact</Nav.Link>
+      <Nav.Link className="item active"  href="http://giselesousar.github.io/">Home</Nav.Link>
+      <Nav.Link className="item" href="http://giselesousar.github.io/projects">Projetos</Nav.Link>
+      <Nav.Link className="item" href="http://giselesousar.github.io/contact">Contatos</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
+</div>
                 </section>
                 </Container>
             </Container>
