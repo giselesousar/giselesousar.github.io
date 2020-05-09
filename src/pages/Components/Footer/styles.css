@@ -1,0 +1,12 @@
+.custom-footer{
+    background-color: black;
+    margin-bottom: 0;
+}
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 1px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
