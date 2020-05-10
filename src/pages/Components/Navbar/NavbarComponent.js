@@ -13,7 +13,7 @@ class NavbarComponent extends React.Component{
                 <Nav style={{ width: "100%" }} className="mr-auto justify-content-end">
                     <Nav.Link className="item-nav" ><Link className="item" to='/'>Home</Link></Nav.Link>
                     <Nav.Link className="item-nav" ><Link className="item" to='/projects'>Projetos</Link></Nav.Link>
-                    <Nav.Link className="item-nav" ><Link className="item" to='/contact'>Contatos</Link></Nav.Link>
+                    <Nav.Link className="item-nav" ><Link className="item" to='/contact'>Contato</Link></Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
 </Navbar>
