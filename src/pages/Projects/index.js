@@ -14,7 +14,7 @@ class Projects extends React.Component {
                     <section className="center-block text-center center">
                         <h1>Projetos</h1>
                         <div className="paragrafo-container">
-                            <p></p>
+                            <p>Under contruction...</p>
                         </div>
                         <Container style={{ width: "70%" }} >
 
