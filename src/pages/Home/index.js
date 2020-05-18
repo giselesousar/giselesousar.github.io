@@ -4,16 +4,13 @@ import './styles.css';
 
 import { FiInstagram, FiGithub, FiMail } from 'react-icons/fi'
 import { Container } from 'react-bootstrap';
-import Navbar from '../Components/Navbar/NavbarComponent';
-import Footer from '../Components/Footer/FooterComponent';
+
 
 class Home extends React.Component {
     render() {
         return (
             <Container fluid="true" className="justify-content-center">
-                <div className="links-navbar">
-                    <Navbar />
-                </div>
+    
                 <Container style={{ width: "90%" }} className="justify-content-center">
                     <section className="center-block text-center center">
                         <div className="paragrafo-container">
@@ -32,7 +29,6 @@ class Home extends React.Component {
                         </Container>
                     </section>
                 </Container>
-                <Footer />
             </Container>
         )
     }

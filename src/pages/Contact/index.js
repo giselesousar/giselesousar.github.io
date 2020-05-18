@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
-import Navbar from '../Components/Navbar/NavbarComponent'
-import Footer from '../Components/Footer/FooterComponent'
 
 import './styles.css'
 class Contact extends React.Component {
@@ -16,9 +14,7 @@ class Contact extends React.Component {
         const { status } = this.state;
         return (
             <Container fluid="true" className="justify-content-center">
-                <div className="links-navbar">
-                    <Navbar />
-                </div>
+          
                 <Container style={{ width: "80%" }} className="justify-content-center">
 
                     <section className="center-block text-center center">
@@ -45,7 +41,6 @@ class Contact extends React.Component {
                     </Container>
 
                 </Container>
-                <Footer />
             </Container>
         )
     }
