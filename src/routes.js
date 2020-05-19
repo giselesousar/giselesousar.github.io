@@ -5,8 +5,8 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Navbar from './pages/Components/Navbar/NavbarComponent';
-import Footer from './pages/Components/Footer/FooterComponent';
+import Navbar from './Components/Navbar/NavbarComponent';
+import Footer from './Components/Footer/FooterComponent';
 
 export default function Routes(){
     return(
