@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <a href="#" className="nav__logo">Gisele</a>
+        <a href="#home" className="nav__logo">Gisele</a>
 
         <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`} id="nav-menu">
           <ul className="nav__list grid">
