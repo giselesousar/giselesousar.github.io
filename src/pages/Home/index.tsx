@@ -6,13 +6,13 @@ const Home = () => {
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
-                        <a href="https://www.linkedin.com/in/giselesousar/" target="_blank" className="home__social-icon">
+                        <a href="https://www.linkedin.com/in/giselesousar/" target="_blank" rel="noreferrer"className="home__social-icon">
                             <i className="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://github.com/giselesousar" target="_blank" className="home__social-icon">
+                        <a href="https://github.com/giselesousar" target="_blank" rel="noreferrer" className="home__social-icon">
                             <i className="uil uil-github-alt"></i>
                         </a>
-                        <a href="https://www.instagram.com/xlribeiro_/" target="_blank" className="home__social-icon">
+                        <a href="https://www.instagram.com/xlribeiro_/" target="_blank" rel="noreferrer" className="home__social-icon">
                             <i className="uil uil-instagram-alt"></i>
                         </a>
                     </div>

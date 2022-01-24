@@ -37,7 +37,7 @@ const Main = () => {
             <Footer />
             { scrollPosition >= 500 &&
                 <div>
-                    <a href="#" className="scrollup" id="scroll-up">
+                    <a href="#home" className="scrollup" id="scroll-up">
                         <i className="uil uil-arrow-up scrollup__icon"></i>
                     </a>
                 </div>

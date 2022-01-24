@@ -27,7 +27,7 @@ const Portfolio = () => {
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">Construrapi</h3>
                         <p className="portfolio__description">Mobile app for sale and delivery of construction materials. Technologies: React Native, Expo, Node.JS, GraphQL, Typescrypt. </p>
-                        <a href="https://play.google.com/store/apps/details?id=com.construrapi.construrapi" target='_blank' className="button button-flex button-small portfolio__button">
+                        <a href="https://play.google.com/store/apps/details?id=com.construrapi.construrapi" target='_blank' rel="noreferrer" className="button button-flex button-small portfolio__button">
                             Demo
                             <i className="uil uil-arrow-right button__icon"></i>
                         </a>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     <div className="portfolio__data">
                         <h3 className="portfolio__title">E-motion</h3>
                         <p className="portfolio__description">Mobile app to assist health professionals in monitoring patients with psychological problems. Technologies: React Native, Node.JS, Typescript</p>
-                        <a href="https://github.com/ES2-UFPI/e-motion" target='_blank' className="button button-flex button-small portfolio__button">
+                        <a href="https://github.com/ES2-UFPI/e-motion" target='_blank' rel="noreferrer" className="button button-flex button-small portfolio__button">
                             Demo
                             <i className="uil uil-arrow-right button__icon"></i>
                         </a>
