@@ -31,8 +31,9 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Construrapi</h3>
               <p className="portfolio__description">
-                Mobile app for sale and delivery of construction materials.
-                Technologies: React Native, Expo, Node.JS, GraphQL, Typescrypt.{" "}
+                Aplicativo mobile para venda e entrega de materiais de
+                construção.Tecnologias: React Native, Expo, Node.JS, GraphQL,
+                Typescrypt.{" "}
               </p>
               <a
                 href="https://play.google.com/store/apps/details?id=com.construrapi.construrapi"
@@ -55,9 +56,9 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">E-motion</h3>
               <p className="portfolio__description">
-                Mobile app to assist health professionals in monitoring patients
-                with psychological problems. Technologies: React Native,
-                Node.JS, Typescript
+                Aplicativo mobile para auxiliar profissionais de saúde no
+                acompanhamento de pacientes com problemas psicológicos.
+                Tecnologias: React Native, Node.JS, Typescript
               </p>
               <a
                 href="https://github.com/ES2-UFPI/e-motion"
