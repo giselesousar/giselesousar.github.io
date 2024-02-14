@@ -42,7 +42,7 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  2018 - 2022
+                  MAR 2018 - MAI 2022
                 </div>
               </div>
             </div>
