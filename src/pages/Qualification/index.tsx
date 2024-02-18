@@ -89,7 +89,7 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Desenolvedora Mobile</h3>
+                <h3 className="qualification__title">Desenvolvedora Mobile</h3>
                 <span className="qualification__subtitle">Brasil - Nav9</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>

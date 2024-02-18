@@ -30,6 +30,15 @@ const Skills = () => {
             <div className="skills__data">
               <h3 className="skills__name">Expo</h3>
             </div>
+            <div className="skills__data">
+              <h3 className="skills__name">React Query</h3>
+            </div>
+            <div className="skills__data">
+              <h3 className="skills__name">Jest</h3>
+            </div>
+            <div className="skills__data">
+              <h3 className="skills__name">React Native Testing Library</h3>
+            </div>
           </div>
         </div>
         <div className="skills__content">
