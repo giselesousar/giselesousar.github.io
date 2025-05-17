@@ -3,22 +3,19 @@ import "./styles.css";
 const About = () => {
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">Sobre mim</h2>
-      <span className="section__subtitle">Minha introdução</span>
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">Introduction</span>
 
       <div className="about__container container grid">
         <p className="about__description">
-          Desenvolvedora Mobile com sólida experiência em React Native,
-          enfatizando aprimoramento e manutenção de aplicativos multiplataforma
-          para proporcionar a melhor experiência ao usuário. Proficiente em
-          metodologias ágeis como Scrum e Kanban, colaborando com equipes
-          multifuncionais para eficiente entrega de projetos e recursos. Também
-          atuei como Desenvolvedora Full Stack, trabalhando em equipe no
-          desenvolvimento de aplicativos e sistemas web personalizados para
-          clientes, incluindo um website completo para gerenciamento de estoque,
-          orçamentos, pedidos, promoções e produtos. Sou apaixonada por inovação
-          e constantemente busco novos desafios para aprimorar minhas
-          habilidades técnicas.
+          Mobile Developer with solid experience in React Native, focused on
+          improving and maintaining cross-platform applications to optimize user
+          experience. Proficient in agile methodologies (Scrum, Kanban),
+          collaborating with cross-functional teams to deliver projects
+          eﬃciently. I also have experience as a Full Stack Developer, working
+          on the development of web systems and custom applications. Passionate
+          about innovation and always seeking new challenges to enhance my
+          technical skills.
         </p>
         <div className="about__info">
           {/*<div>
@@ -39,7 +36,7 @@ const About = () => {
               href="/static/pdf/resume.pdf"
               className="button button-flex"
             >
-              Baixar CV <i className="uil uil-download-alt button__icon"></i>
+              Download CV <i className="uil uil-download-alt button__icon"></i>
             </a>
           </div>
         </div>

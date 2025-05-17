@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">Meu nível técnico</span>
+      <span className="section__subtitle">Technical Skills</span>
 
       <div className="skills__container container grid">
         <div className="skills__content">
@@ -12,8 +12,8 @@ const Skills = () => {
             <i className="uil uil-server-network skills__icon"></i>
 
             <div>
-              <h1 className="skills__title">Desenvolvedora Mobile</h1>
-              <span className="skills__subtitle">Mais de 3 anos</span>
+              <h1 className="skills__title">Mobile Developer</h1>
+              <span className="skills__subtitle">Over 3 years</span>
             </div>
           </div>
 
@@ -46,8 +46,8 @@ const Skills = () => {
             <i className="uil uil-brackets-curly skills__icon"></i>
 
             <div>
-              <h1 className="skills__title">Desenvolvedora Frontend</h1>
-              <span className="skills__subtitle">Mais de 3 anos</span>
+              <h1 className="skills__title">FullStack Developer</h1>
+              <span className="skills__subtitle">Over 3 years</span>
             </div>
           </div>
 
@@ -66,6 +66,12 @@ const Skills = () => {
             </div>
             <div className="skills__data">
               <h3 className="skills__name">Angular</h3>
+            </div>
+            <div className="skills__data">
+              <h3 className="skills__name">NodeJS</h3>
+            </div>
+            <div className="skills__data">
+              <h3 className="skills__name">SQL</h3>
             </div>
           </div>
         </div>

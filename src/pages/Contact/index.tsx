@@ -3,14 +3,12 @@ import "./styles.css";
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contato</h2>
-      <span className="section__subtitle">Entre em contato</span>
+      <h2 className="section__title">Contact</h2>
+      <span className="section__subtitle">Get in Touch</span>
 
       <div className="contact__container container">
-        <p>Tem alguma pergunta ou deseja colaborar?</p>
-        <p>
-          Conecte-se comigo através das redes sociais ou envie-me um e-mail.
-        </p>
+        <p>Do you have any questions or want to collaborate?</p>
+        <p>Connect with me through social media or send me an email.</p>
         <div className="contact_content">
           <a
             href="https://www.github.com//giselesousar/"

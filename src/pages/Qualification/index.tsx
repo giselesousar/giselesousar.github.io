@@ -3,15 +3,17 @@ import "./styles.css";
 const Qualification = () => {
   return (
     <section className="qualification section" id="qualification">
-      <h2 className="section__title">Qualificações</h2>
-      <span className="section__subtitle">Minhas qualificações</span>
+      <h2 className="section__title">Qualifications</h2>
+      <span className="section__subtitle">Education & Experience</span>
 
       <div className="qualification__container container">
         <div className="qualification__sections">
           <div className="qualification__content">
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Técnico em Informática</h3>
+                <h3 className="qualification__title">
+                  Information Technology (Technical Degree)
+                </h3>
                 <span className="qualification__subtitle">IFPI</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
@@ -35,10 +37,10 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Bacharel em Ciência da Computação
+                  Bachelor of Computer Science
                 </h3>
                 <span className="qualification__subtitle">
-                  Universidade Federal do Piauí
+                  Federal University of Piauí
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
@@ -50,9 +52,9 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  Estagiário em Desenvolvimento Web
+                  Web Developer Internship
                 </h3>
-                <span className="qualification__subtitle">Brasil - Korp</span>
+                <span className="qualification__subtitle">Brazil - KORP</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
                   JUN 2021 - DEZ 2021
@@ -75,11 +77,9 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Estagiário em Desenvolvimento Web
+                  Web Developer Internship
                 </h3>
-                <span className="qualification__subtitle">
-                  Tribunal de Contas do Estado do Piauí
-                </span>
+                <span className="qualification__subtitle">TCE - PI</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
                   JAN 2022 - MAI 2022
@@ -89,11 +89,11 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Desenvolvedora Mobile</h3>
-                <span className="qualification__subtitle">Brasil - Nav9</span>
+                <h3 className="qualification__title">Mobile Developer</h3>
+                <span className="qualification__subtitle">Brazil - nav9</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  MAI 2022 - PRESENTE
+                  MAI 2022 - PRESENT
                 </div>
               </div>
               <div>

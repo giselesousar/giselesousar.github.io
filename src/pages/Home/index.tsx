@@ -23,7 +23,7 @@ const Home = () => {
               <i className="uil uil-github-alt"></i>
             </a>
             <a
-              href="https://www.instagram.com/gisele.xlr/"
+              href="https://www.instagram.com/giseleribeirosousa/"
               target="_blank"
               rel="noreferrer"
               className="home__social-icon"
@@ -59,15 +59,14 @@ const Home = () => {
             </svg>
           </div>
           <div className="home__data">
-            <h1 className="home__title">Olá, sou a Gisele</h1>
-            <h2 className="home__subtitle">Front-end developer</h2>
+            <h1 className="home__title">Hi, I'm Gisele</h1>
+            <h2 className="home__subtitle">Mobile Developer</h2>
             <p className="home__description">
-              Especialista em desenvolvimento Web e Mobile, dedicada a
-              transformar ideias em soluções digitais eficientes e de alta
-              qualidade.
+              A Web and Mobile Development Specialist, dedicated to turning
+              ideas into efficient and high-quality digital solutions.
             </p>
             <a href="#contact" className="button button-flex">
-              Entre em contato <i className="uil uil-message button__icon"></i>
+              Get in touch <i className="uil uil-message button__icon"></i>
             </a>
           </div>
         </div>

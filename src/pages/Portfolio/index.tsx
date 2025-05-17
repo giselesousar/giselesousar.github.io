@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">Meus trabalhos</span>
+      <span className="section__subtitle">My work</span>
       <div className="portfolio__container container">
         <Swiper
           modules={[Navigation, Pagination]}
@@ -31,9 +31,8 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">Construrapi</h3>
               <p className="portfolio__description">
-                Aplicativo mobile para venda e entrega de materiais de
-                construção.Tecnologias: React Native, Expo, Node.JS, GraphQL,
-                Typescrypt.{" "}
+                Mobile app for construction materials sales and delivery.
+                Technologies: React Native, Expo, Node.js, GraphQL, TypeScript.{" "}
               </p>
               <a
                 href="https://play.google.com/store/apps/details?id=com.construrapi.construrapi"
@@ -56,9 +55,9 @@ const Portfolio = () => {
             <div className="portfolio__data">
               <h3 className="portfolio__title">E-motion</h3>
               <p className="portfolio__description">
-                Aplicativo mobile para auxiliar profissionais de saúde no
-                acompanhamento de pacientes com problemas psicológicos.
-                Tecnologias: React Native, Node.JS, Typescript
+                Mobile app to support healthcare professionals in monitoring
+                patients with psychological issues. Technologies: React Native,
+                Node.js, TypeScript
               </p>
               <a
                 href="https://github.com/ES2-UFPI/e-motion"
