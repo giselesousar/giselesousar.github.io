@@ -17,7 +17,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">IFPI</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  JAN 2014 - DEZ 2017
+                  JAN 2014 - DEC 2017
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ const Qualification = () => {
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  MAR 2018 - MAI 2022
+                  MAR 2018 - MAY 2022
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Brazil - KORP</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  JUN 2021 - DEZ 2021
+                  JUN 2021 - DEC 2021
                 </div>
               </div>
 
@@ -82,7 +82,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">TCE - PI</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  JAN 2022 - MAI 2022
+                  JAN 2022 - MAY 2022
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Qualification = () => {
                 <span className="qualification__subtitle">Brazil - nav9</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt calendar__icon"></i>
-                  MAI 2022 - PRESENT
+                  MAY 2022 - PRESENT
                 </div>
               </div>
               <div>
